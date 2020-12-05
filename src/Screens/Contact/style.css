@@ -1,0 +1,328 @@
+.contactContainer {
+  background: linear-gradient(228.48deg, #f2ec3b 20.3%, #80f9c0 96.91%);
+}
+.contactBoxRow {
+  display: flex;
+}
+.contactBox {
+  width: 75%;
+  display: flex;
+  align-items: center;
+  padding: 8vw 0 5vw 0;
+  flex-direction: column;
+  justify-content: center;
+}
+.contactBoxData {
+  width: 60%;
+}
+.contactTitle {
+  margin: 0;
+  font-size: 3rem;
+  font-weight: bolder;
+  font-family: sans-serif;
+}
+.contactDics {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: bolder;
+}
+.contactLable {
+  margin: 2rem 0 5px 0;
+  font-weight: bolder;
+}
+.contactInput {
+  width: 90%;
+  border: none;
+  outline: none;
+  padding: 0.7rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  background: #a4e66d;
+  font-family: sans-serif;
+  background-blend-mode: multiply;
+}
+.contactArea {
+  border: none;
+  outline: none;
+  padding: 0.5rem;
+  font-size: 1rem;
+  max-width: 90%;
+  min-width: 90%;
+  min-height: 4rem;
+  max-height: 6rem;
+  border-radius: 5px;
+  background: #a4e66d;
+  font-family: sans-serif;
+  background-blend-mode: multiply;
+}
+.checkBx {
+  background: #46767a;
+  background-blend-mode: multiply;
+}
+
+input[type="checkbox"] {
+  visibility: hidden;
+}
+label {
+  cursor: pointer;
+  margin-top: 1rem;
+  margin-left: -1rem;
+}
+input[type="checkbox"] + label:before {
+  padding: 0;
+  width: 15px;
+  height: 15px;
+  content: "\00a0";
+  border-radius: 2px;
+  vertical-align: top;
+  margin: 0 1em 0 0;
+  display: inline-block;
+  font: 16px/1em sans-serif;
+  border: 1px solid #46767a;
+}
+input[type="checkbox"]:checked + label:before {
+  color: white;
+  content: "\2713";
+  text-align: center;
+  background: #46767a;
+}
+.sendMessageBut {
+  border: none;
+  outline: none;
+  color: white;
+  margin-top: 2rem;
+  font-size: 1.1rem;
+  padding: 1rem 10vw;
+  border-radius: 5px;
+  font-family: Raleway;
+  background: linear-gradient(180deg, #9419df 0%, #4b19da 100%);
+}
+.sendMessageBut:hover {
+  background: linear-gradient(360deg, #9419df 0%, #4b19da 100%);
+}
+.sendMessageBut:active {
+  background: linear-gradient(180deg, #9419df 0%, #4b19da 100%);
+}
+.contactDonutBox {
+  right: 0;
+  width: 30%;
+  height: 130vh;
+  position: absolute;
+  background: #1c1c1c;
+}
+.contactDonut1 {
+  top: 10%;
+  left: 50%;
+  width: 10vw;
+  position: absolute;
+  transform: rotate(100deg);
+}
+.contactDonut2 {
+  top: 40%;
+  left: 10%;
+  z-index: 3;
+  width: 20vw;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+.contactDonut3Box {
+  top: 45%;
+  right: 0;
+  overflow: hidden;
+  position: absolute;
+}
+.contactDonut3 {
+  width: 25vw;
+  right: -30%;
+  position: relative;
+  transform: rotate(50deg);
+}
+.candies {
+  position: relative;
+}
+.candy1 {
+  top: 10%;
+  left: 50%;
+}
+.candy2 {
+  top: 8%;
+  left: 60%;
+}
+.candy3 {
+  top: 15%;
+  left: 20%;
+}
+.candy4 {
+  top: 20%;
+  left: 10%;
+}
+.candy5 {
+  top: 60%;
+  left: 10%;
+}
+.candy6 {
+  top: 30%;
+  left: 60%;
+}
+.candy7 {
+  top: 80%;
+  left: 20%;
+}
+.candy8 {
+  top: 30%;
+  left: 20%;
+}
+.candy9 {
+  top: 10%;
+  left: -20%;
+}
+.candy10 {
+  top: 40%;
+  left: 20%;
+}
+.candy11 {
+  top: 52%;
+  left: 5%;
+}
+.candy12 {
+  top: 40%;
+  left: 20%;
+}
+.candy13 {
+  top: 70%;
+  left: -20%;
+}
+
+@media screen and (max-width: 680px) {
+  .contactTitle {
+    font-size: 4vw;
+    font-family: Raleway;
+  }
+  .contactDics {
+    font-size: 2vw;
+  }
+  .sendMessageBut {
+    margin-top: 5vw;
+    font-size: 2vw;
+    padding: 2vw 14vw;
+  }
+  .contactBoxData {
+    width: 80%;
+  }
+  .contactBox {
+    padding: 15vw 0;
+  }
+  .contactLable {
+    font-size: 2vw;
+  }
+  .contactInput {
+    font-size: 2vw;
+    padding: 0.5rem;
+  }
+  .contactArea {
+    font-size: 2vw;
+    padding: 0.5rem;
+  }
+  .candies {
+    width: 1.5vw;
+    position: relative;
+  }
+  label {
+    font-size: 2vw;
+    margin-top: 2vw;
+    margin-left: -1rem;
+  }
+  input[type="checkbox"] + label:before {
+    width: 2vw;
+    height: 2vw;
+    margin: 0 0.5em 0 0;
+    font: 2vw/1rem sans-serif;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .contactDonutBox {
+    height: 100vh;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .contactTitle {
+    font-size: 5vw;
+  }
+  .contactDics {
+    font-size: 3vw;
+  }
+  .contactBoxData {
+    width: 95%;
+  }
+  .contactBox {
+    width: 70%;
+    padding: 30vw 0;
+  }
+  .contactLable {
+    font-size: 2.5vw;
+    margin: 1rem 0 2px 0;
+  }
+  .contactInput {
+    width: 95%;
+    font-size: 3vw;
+    border-radius: 0px;
+    padding: 0.4rem 0.2rem;
+  }
+  .contactArea {
+    min-width: 95%;
+    max-width: 95%;
+    font-size: 3vw;
+    min-height: 3rem;
+    max-height: 5rem;
+    border-radius: 0px;
+    padding: 0.4rem 0.2rem;
+    background-blend-mode: multiply;
+  }
+  label {
+    font-size: 3vw;
+  }
+  input[type="checkbox"] + label:before {
+    width: 3vw;
+    height: 3vw;
+    margin: 0 0.5em 0 0;
+    font: 3vw/0.7rem sans-serif;
+  }
+  .sendMessageBut {
+    font-size: 3vw;
+    padding: 2vw 11vw;
+  }
+  .contactDonut1 {
+    top: 7%;
+    left: 15%;
+    width: 22vw;
+  }
+  .contactDonut2 {
+    top: 40%;
+    left: 25%;
+    width: 33vw;
+  }
+  .contactDonut3 {
+    width: 31vw;
+    right: -22%;
+  }
+  .contactDonut3Box {
+    top: 60%;
+  }
+  .contactDonutBox {
+    height: 90vh;
+    margin-top: 10vw;
+  }
+  .candies {
+    width: 3vw;
+  }
+  .candy6 {
+    top: 50%;
+    left: 0%;
+  }
+  .candy10 {
+    top: 0%;
+    left: -60%;
+  }
+}

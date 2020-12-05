@@ -1,0 +1,124 @@
+.homeBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.homeBox1 {
+  width: 60%;
+  display: flex;
+  padding-left: 9vw;
+  flex-direction: column;
+  justify-content: center;
+  background: linear-gradient(228.48deg, #f2ec3b 20.3%, #80f9c0 96.91%);
+}
+.homeBox2 {
+  width: 40%;
+  overflow: hidden;
+  background: black;
+}
+.cartoonBg {
+  width: 100%;
+  padding-top: 6vw;
+  margin-left: -1px;
+}
+
+.cartoon-cover {  
+  right: 50px !important;
+  top: 22vw!important;
+}
+.cartoon {  
+  right: 0;
+  top: 15vw;
+  z-index: 3;
+  width: 52vw;
+  position: absolute;
+}
+.homeBoxHead {
+  width: 60%;
+  opacity: 0.9;
+  color: black;
+  font-size: 7vw;
+  margin-top: 20vw;
+  font-weight: bolder;
+  font-family: Raleway;
+}
+.homeBoxPara {
+  margin: 0;
+  color: black;
+  font-size: 1.5vw;
+  font-weight: bolder;
+  font-family: Raleway;
+}
+.plus1 {
+  top: 20vw;
+  left: 45vw;
+  width: 1vw;
+  position: absolute;
+}
+.plus2 {
+  top: 23vw;
+  left: 40vw;
+  width: 1vw;
+  position: absolute;
+}
+.plus3 {
+  top: 50vw;
+  left: 46vw;
+  width: 1vw;
+  position: absolute;
+}
+.line {
+  width: 20%;
+  object-fit: contain;
+  margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 680px) {
+  .cartoonBg {
+    padding-top: 8vw;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .homeBox2 {
+    background-color: #f2ec3b;
+  }
+  .cartoonBg {
+    padding-top: 10vw;
+  }
+  .homeBox1 {
+    padding-left: 5vw;
+  }
+  .homeBoxPara {
+    z-index: 5;
+    font-size: 2.2vw;
+    position: relative;
+  }
+  .cartoon {
+    top: 29vw;
+    right: 0vw;
+    width: 55vw;
+  }
+  .cartoon-cover {  
+    right: 0px !important;
+    top: 42vw !important;
+  }
+  .plus1 {
+    top: 70vw;
+    left: 3vw;
+    width: 10px;
+  }
+  .plus2 {
+    top: 22vw;
+    left: 50vw;
+    width: 10px;
+  }
+  .plus3 {
+    top: 27vw;
+    left: 45vw;
+    width: 10px;
+  }
+  .cartoonBg {
+    width: 135%;
+  }
+}

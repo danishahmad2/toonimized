@@ -1,0 +1,76 @@
+.gallaryBgBox {
+  width: 14vw;
+  height: 14vw;
+  text-align: center;
+  margin-right: 2.7vw;
+}
+.gallaryPicBgActive {
+  display: flex;
+  padding: 0.5vw;
+  position: relative;
+  align-items: center;
+  border-radius: 1.5rem;
+  justify-content: center;
+  background: linear-gradient(0deg, #9cffac 0%, #00b59c 100%);
+}
+.gallaryPics {
+  width: 14vw;
+  height: 12vw;
+  cursor: pointer;
+  object-fit: cover;
+  border-radius: 1.5vw;
+  background-color: dimgray;
+}
+.gallaryPics:hover {
+  transition: 0.3s;
+  box-shadow: 0 0 15px -5px black;
+}
+.gallaryPic {
+  width: 13vw;
+  height: 11vw;
+  object-fit: cover;
+  border-radius: 1.5vw;
+}
+.selectGallary {
+  top: -10%;
+  width: 5vw;
+  right: -10%;
+  position: absolute;
+  border-radius: 100rem;
+  background: linear-gradient(180deg, #9419df 0%, #4b19da 100%);
+}
+.gallaryTxt {
+  font-size: 1vw;
+}
+
+@media screen and (max-width: 700px) {
+  .gallaryBgBox {
+    width: 20vw;
+    height: 20vw;
+    text-align: center;
+  }
+  .gallaryPics {
+    height: 18vw;
+    width: 22vw !important;
+  }
+  .gallaryPic {
+    height: 17vw;
+    width: 21vw !important;
+  }
+  .gallaryPicBgActive {
+    padding: 1vw 0;
+    width: 23vw !important;
+    border-radius: 0.4rem !important;
+  }
+  .gallaryTxt {
+    font-size: 2.2vw;
+  }
+  .selectGallary {
+    top: -5%;
+    width: 5vw;
+    right: -5%;
+    position: absolute;
+    border-radius: 100rem;
+    background: linear-gradient(180deg, #9419df 0%, #4b19da 100%);
+  }
+}

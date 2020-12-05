@@ -1,0 +1,114 @@
+.circleBox {
+  width: 6vw;
+  margin-left: 2.5vw;
+  margin-top: 2.5vw;
+  text-align: center;
+}
+.iconCircle {
+  width: 6vw;
+  height: 6vw;
+  display: flex;
+  align-items: center;
+  border-radius: 5rem;
+  justify-content: center;
+  background: linear-gradient(228.48deg, #f2ec3b 20.3%, #80f9c0 96.91%);
+  box-shadow: inset -10px -10px 40px rgba(255, 255, 255, 0.45),
+    inset 10px 10px 20px rgba(0, 0, 0, 0.45);
+}
+.insideIconCircle {
+  width: 4.3vw;
+  height: 4.3vw;
+  display: flex;
+  align-items: center;
+  border-radius: 5rem;
+  justify-content: center;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+  background: linear-gradient(0deg, #c3ffe8 0%, #f0fff4 99.73%);
+}
+.iconInsideCircle {
+  width: 2.5vw;
+}
+.iconsHead {
+  margin: 0;
+  font-size: 1.9vw;
+  margin-top: 1rem;
+  font-weight: bolder;
+  background: -webkit-linear-gradient(#f2ec3b 20.3%, #80f9c0 96.91%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.iconsPara {
+  margin: 0;
+  font-size: 0.9vw;
+  font-weight: bold;
+  background: -webkit-linear-gradient(#f2ec3b 20.3%, #80f9c0 96.91%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.unlimitedIcon {
+  width: 3.4vw;
+  margin: 1rem 0 0.5vw 0;
+}
+
+@media screen and (max-width: 580px) {
+  .circleBox {
+    width: 9vw;
+    margin-top: 2vw;
+    margin-left: 2vw;
+  }
+  .iconCircle {
+    width: 9vw;
+    height: 9vw;
+  }
+  .insideIconCircle {
+    width: 6.5vw;
+    height: 6.5vw;
+  }
+  .iconInsideCircle {
+    width: 4vw;
+  }
+  .iconsHead {
+    font-size: 2.5vw;
+    margin-top: 0.5rem;
+  }
+  .unlimitedIcon {
+    margin: 0.5rem 0 0.5vw 0;
+  }
+  .iconsPara {
+    font-size: 1.4vw;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .circleBox {
+    width: 14vw;
+    display: flex;
+    margin-top: 2vw;
+    margin-left: 2vw;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .iconCircle {
+    width: 11vw;
+    height: 11vw;
+  }
+  .insideIconCircle {
+    width: 8vw;
+    height: 8vw;
+  }
+  .iconInsideCircle {
+    width: 5vw;
+  }
+  .iconsHead {
+    font-size: 3.5vw;
+    margin-top: 0.5rem;
+  }
+  .unlimitedIcon {
+    width: 5vw;
+    margin: 0.5rem 0 0.2rem 0;
+  }
+  .iconsPara {
+    font-size: 2.1vw;
+  }
+}

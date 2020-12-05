@@ -1,0 +1,67 @@
+.chooseCartoon {
+  width: 8vw;
+  height: 8vw;
+  display: flex;
+  align-items: center;
+  border-radius: 5rem;
+  justify-content: center;
+}
+.chooseOptions {
+  width: 10vw;
+  height: 10vw;
+  margin-left: 30%;
+  object-fit: contain;
+  transition-duration: 0.3s;
+}
+.chooseOptions1 {
+  width: 12vw;
+  height: 11vw;
+  margin-left: 30%;
+  object-fit: contain;
+  transition-duration: 0.3s;
+}
+.chooseOptions2 {
+  width: 12vw;
+}
+@media screen and (max-width: 700px) {
+  .chooseCartoon {
+    width: 10vw;
+    height: 10vw;
+  }
+  .chooseOptions {
+    width: 12vw;
+    height: 12vw;
+  }
+  .chooseOptions1 {
+    width: 14vw;
+    height: 13vw;
+  }
+  .chooseOptions2 {
+    width: 15vw;
+    margin-left: 5vw;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .chooseCartoon {
+    width: 13vw;
+    height: 15vw;
+    margin-top: 2rem;
+    margin-bottom: -1rem;
+  }
+  .chooseOptions {
+    height: 15vw;
+    width: 25vw;
+    margin-left: 70%;
+
+  }
+  .chooseOptions2 {
+    width: 25vw;
+    margin-left: 13vw;
+  }
+  .chooseOptions1 {
+    height: 21vw;
+    width: 21vw;
+    margin-left: 10vw;
+  }
+}

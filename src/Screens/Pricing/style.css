@@ -1,0 +1,244 @@
+/*INDEX
+1- HEADER
+2- PEOPLE
+3- PET
+4- BACKGROUND & DELIVERY TIME
+5- PAYMENT 
+6- 
+
+	padding: 80px 0px;
+	background: section.payment{
+}7- 
+
+
+
+
+
+
+
+
+*/
+
+
+body{
+	width: 100%;
+    margin: 0px !important;
+    padding: 0px !important;
+    font-family: 'Raleway', sans-serif !important;
+}
+table{
+	font-family: 'Raleway', sans-serif !important;
+}
+.container{
+	width: 100%;
+}
+h2.heading{
+	color: #000;
+	font-size: 90px;
+    font-weight: bolder;
+}
+p.description{
+	font-size: 19px;
+	font-weight: bolder;
+}
+hr.line{
+	width: 90px;
+	border-radius: 10px;
+	border: 4px solid #000;
+	background: #000;
+}
+span.cta{
+	border: none;
+    color: white;
+    font-size: 15px;
+    font-weight: bolder;
+    cursor: pointer;
+    padding: 15px 40px;
+    border-radius: 8px;
+    font-family: Raleway;
+    transition-duration: 1s;
+    outline: none !important;
+    background: linear-gradient(180deg, #9419df 0%, #4b19da 100%);
+}
+span.cta:hover{
+	color: #fff;
+    background: linear-gradient(180deg, #4b19da 0%,#9419df 100%);
+}
+
+
+/*----- HEADER --------*/
+header{
+	background: linear-gradient(228.48deg, #f2ec3b 20.3%, #80f9c0 96.91%);
+	padding: 80px 0px;
+}
+header h2{
+	
+}
+header p{
+	
+}
+
+
+/*------- PEOPLE -------*/
+
+section.people{
+	padding: 80px 0px;
+}
+section.people table{
+	background: linear-gradient(228.48deg, #fffc84 20.3%, #80f9c0 96.91%);
+	width: 96%;
+	padding: 20px;
+}
+section.people table tr{
+	border: 2px solid #f2ec3b;
+}
+section.people table tr th{
+	padding: 8px 10px; 
+	font-size: 18px;
+}
+section.people table tr td{
+ 	text-align: right;
+ 	padding: 8px 10px;
+ 	font-size: 18px;
+ 	font-weight: bolder;
+}
+
+/*-------- PET --------*/
+section.pet{
+	background: linear-gradient(228.48deg, #f2ec3b 20.3%, #80f9c0 96.91%);
+	padding: 80px 0px; 
+}
+section.pet table{
+	background: #fff;
+	width: 96%;
+	padding: 20px;
+}
+section.pet table tr{
+	border: 2px solid #f2ec3b;
+}
+section.pet table tr th{
+	padding: 8px 10px; 
+	font-size: 18px;
+}
+section.pet table tr td{
+ 	text-align: right;
+ 	padding: 8px 10px;
+ 	font-size: 18px;
+ 	font-weight: bolder;
+}
+
+
+/*-------- BACKGROUND & DELIVERY TIME ---------*/
+
+section.bg-dt{
+	padding: 80px 0px;
+}
+section.bg-dt .col-lg-6 .box{
+	border-radius: 40px;
+	padding: 5px;
+	background: linear-gradient(228.48deg, #f2ec3b 20.3%, #80f9c0 96.91%);
+}
+section.bg-dt .col-lg-6 .box .inner{
+	background: #fff;
+	padding: 40px;
+	border-radius: 36px;
+}
+
+section.bg-dt table{
+	background: linear-gradient(228.48deg, #fffc84 20.3%, #80f9c0 96.91%);
+	width: 100%;
+	padding: 20px;
+}
+section.bg-dt table tr{
+	border: 2px solid #f2ec3b;
+}
+section.bg-dt table tr th{
+	padding: 8px 10px; 
+	font-size: 16px;
+	text-align: left;
+}
+section.bg-dt table tr td{
+ 	text-align: right;
+ 	padding: 8px 10px;
+ 	font-size: 16px;
+ 	font-weight: bolder;
+}
+section.bg-dt h2{
+	font-size: 35px;
+	color: #000;
+	font-weight: 900;
+}
+section.bg-dt p{
+	font-size: 18px;
+	font-weight: bolder;
+}
+
+/*------ PAYMENT -------*/
+section.payment{
+	padding: 80px 0px;
+	text-align: center;
+	background:  linear-gradient(228.48deg, #f2ec3b 20.3%, #80f9c0 96.91%); 
+}
+section.payment h2{
+	font-size: 55px;
+	font-weight: 900;
+}
+section.payment img{
+	width: 120px;
+	margin: 10px; 
+}
+section.payment .col-md-2 img{
+	border-radius: 10px;
+	width: 90%;
+}
+
+div.footer-container {
+	background:linear-gradient(270deg, #f2ec3b 20.3%, #80f9bf 96.91%)
+}
+.mobile{
+	display: none;
+}
+.text-center-mobile{
+	padding-left: 0px;
+	
+}
+@media screen and (min-width:1000px){
+	.container{
+		max-width: 980px;
+	}
+}
+@media screen and (max-width: 1000px){
+	.mobile{
+		display: block;
+	}
+}
+@media screen and (max-width: 700px){
+	/*h2.heading{
+		text-align: center;
+	}
+	p.description{
+		text-align: center;
+	}*/
+	.text-center-mobile{
+		text-align: center;
+
+	}	
+	.mobile{
+		display: block;
+	}
+	section.bg-dt .col-md-6 .box .inner{
+		padding: 30px 15px;
+	}
+	section.payment .col-md-2 img{
+		width: 70%;
+	}
+	footer p{
+		text-align: center;
+	}
+	section.payment img{
+		width: 70px;
+	}
+	section.people table{
+		width: 100%;
+	}
+}

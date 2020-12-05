@@ -1,0 +1,39 @@
+.standCartoonBox {
+  position: relative;
+}
+.standCartoon {
+  z-index: 3;
+  width: 11vw;
+  height: 13vw;
+  margin-top: 1vw;
+  margin-left: -1vw;
+  position: relative;
+  object-fit: contain;
+}
+.stand {
+  left: 0;
+  width: 8vw;
+  bottom: -0.5vw;
+  position: absolute;
+}
+
+@media screen and (max-width: 700px) {
+  .standCartoon {
+    width: 12vw;
+    height: 14vw;
+  }
+  .stand {
+    width: 10vw;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .standCartoon {
+    width: 22vw;
+    height: 32vw;
+    margin-top: 1vw;
+  }
+  .stand {
+    width: 20vw;
+  }
+}

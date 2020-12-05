@@ -1,0 +1,42 @@
+.previousTxtRow {
+  width: 65%;
+  display: flex;
+  margin-top: 2rem;
+  align-items: center;
+  justify-self: flex-start;
+}
+.purpleArrow {
+  width: 0.5rem;
+  cursor: pointer;
+}
+.purplePreviousTxt {
+  margin: 0;
+  cursor: pointer;
+  color: #771ade;
+  margin-left: 10px;
+}
+
+@media screen and (max-width: 900px) {
+  .previousTxtRow {
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .previousTxtRow {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .previousTxtRow {
+    margin-top: .5rem;
+  }
+  .purpleArrow {
+    width: 0.4rem;
+  }
+  .purplePreviousTxt {
+    margin-left: 5px;
+    font-size: .8rem;
+  }
+}

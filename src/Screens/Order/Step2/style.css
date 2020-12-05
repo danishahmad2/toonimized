@@ -1,0 +1,187 @@
+.stepBox2 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  font-weight: bolder;
+  font-family: Raleway;
+  flex-direction: column;
+  backdrop-filter: blur(4px);
+  background: linear-gradient(228.48deg, #f2ec3b 20.3%, #80f9c0 96.91%);
+}
+.step2TopData {
+  width: 65%;
+  display: flex;
+  z-index: 3;
+  text-align: left;
+  margin-top: 1rem;
+  flex-direction: column;
+}
+.step2DataHead {
+  margin: 0;
+  font-size: 4rem;
+}
+.step2SubHead {
+  font-size: 1.5rem;
+  margin: 0.5rem 0;
+}
+.step2DataPara {
+  font-size: 1.2vw;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.stepsBigCircle2 {
+  left: 0;
+  top: 15vw;
+  z-index: -1;
+  width: 15rem;
+  position: absolute;
+}
+.rigthStepCircle2 {
+  right: 0;
+  top: 45vw;
+  z-index: -1;
+  width: 8rem;
+  position: absolute;
+}
+.stepBottomData {
+  padding: 5vw 0;
+  text-align: center;
+  font-weight: bolder;
+}
+.step2But:hover {
+  box-shadow: 0 0 15px -5px gray !important;
+}
+.step2ActiveBut:hover {
+  background: linear-gradient(360deg, #9419df 0%, #4b19da 100%);
+}
+.step2ActiveBut:active {
+  background: linear-gradient(180deg, #9419df 0%, #4b19da 100%);
+}
+.seePriceArrow {
+  width: 0.5rem;
+  cursor: pointer;
+  margin-left: 0.5rem;
+  transform: rotate(270deg);
+}
+.less {
+  width: 0.5rem;
+  cursor: pointer;
+  margin-left: 0.5rem;
+  transform: rotate(90deg);
+}
+.calcCircle {
+  width: 3rem;
+  height: 3rem;
+  cursor: pointer;
+}
+.pricingContainer {
+  width: 65%;
+  margin-top: 1vw;
+}
+.step2But {
+  border: none;
+  outline: none;
+  margin: 5vw 0;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 1rem 3rem;
+  letter-spacing: 1px;
+  background: linear-gradient(180deg, #dadada 0%, #cbcbcb 100%);
+}
+.step2ActiveBut {
+  border: none;
+  outline: none;
+  margin: 5vw 0;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 1rem 3rem;
+  letter-spacing: 1px;
+  background: linear-gradient(180deg, #9419df 0%, #4b19da 100%);
+}
+.pricingContainerDetail {
+  width: 64%;
+  overflow: hidden;
+  transition: 0.5s;
+  font-weight: lighter;
+  font-family: sans-serif;
+  color: rgb(94, 94, 94);
+}
+.pricingHr {
+  opacity: 0.2;
+  border: 0.5px solid gray;
+}
+.purplePreviousTxt {
+  color: #7d43c9 !important;
+}
+.marLeft {
+  margin-left: -2vw;
+}
+
+@media screen and (max-width: 900px) {
+  .step2TopData {
+    width: 75%;
+  }
+  .pricingContainer {
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .step2TopData {
+    width: 95% !important;
+  }
+  .pricingContainer {
+    width: 95%;
+  }
+  .step2DataHead {
+    font-size: 2rem;
+  }
+  .step2SubHead {
+    font-size: 1rem;
+  }
+  .step2DataPara {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .step2But {
+    font-size: 3vw;
+    padding: 0.5rem 1rem;
+  }
+  .pricingRow {
+    width: 55%;
+  }
+  .step2ActiveBut {
+    font-size: 3vw;
+    padding: 0.5rem 1rem;
+  }
+  .step2DataPara {
+    font-size: 2.9vw;
+  }
+  .pricingContainerDetail {
+    width: 95%;
+    transition: 0.5s;
+  }
+  .pricingContainerDetail p {
+    margin: 0;
+    opacity: 0.9;
+    font-size: 4vw;
+    margin-bottom: 5px;
+    font-weight: lighter;
+    font-family: sans-serif;
+  }
+  .stepsBigCircle2 {
+    left: 0;
+    top: 13%;
+    position: absolute;
+    width: 20vw !important;
+  }
+  .rigthStepCircle2 {
+    right: 0;
+    top: 45%;
+    width: 15vw;
+    position: absolute;
+  }
+}

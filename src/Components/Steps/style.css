@@ -1,0 +1,140 @@
+.step {
+  z-index: 2;
+  width: 100%;
+  display: flex;
+  margin-top: 8vw;
+  overflow: hidden;
+  align-items: center;
+  font-family: Raleway;
+  flex-direction: column;
+  justify-content: center;
+}
+.yellowPurple {
+  width: 10vw;
+  margin: 0 -0.5vw;
+}
+.yellowLine {
+  width: 10vw;
+}
+.yellowCircle {
+  z-index: 2;
+  width: 3.4vw;
+  margin: 0 -0.6vw;
+}
+.purpleCircle {
+  width: 4vw;
+  z-index: 2;
+  margin: 0 -0.3vw;
+}
+.stepIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.stepBox {
+  width: 64vw;
+  display: flex;
+  margin-top: 5px;
+  justify-content: center;
+}
+.stepBoxes {
+  width: 14vw;
+  display: flex;
+  flex-direction: column;
+}
+.lastStepBox {
+  width: 15vw;
+  display: flex;
+  margin-right: -10vw;
+  flex-direction: column;
+}
+.stepTitleSelect {
+  font-size: 1.3vw;
+  background: -webkit-linear-gradient(#9419df 0vw, #4b19da);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.stepTitle {
+  font-size: 1.3vw;
+  background: #999999;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.stepDetailSelect {
+  font-size: 1vw;
+  background: -webkit-linear-gradient(#9419df 0vw, #4b19da);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.stepDetail {
+  font-size: 1vw;
+  background: #999999;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@media screen and (max-width: 900px) {
+  .yellowPurple {
+    width: 12vw;
+    margin: 0 -0.5vw;
+  }
+  .yellowLine {
+    width: 12vw;
+  }
+  .yellowCircle {
+    width: 4vw;
+    margin: 0 -0.8vw;
+  }
+  .purpleCircle {
+    width: 4.5vw;
+    margin: 0 -0.5vw;
+  }
+  .stepBox {
+    width: 75vw;
+    display: flex;
+    margin-top: 5px;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .yellowPurple {
+    width: 15vw;
+    margin: 0 -0.5vw;
+  }
+  .yellowLine {
+    width: 15vw;
+  }
+  .yellowCircle {
+    width: 5vw;
+    margin: 0 -0.8vw;
+  }
+  .purpleCircle {
+    width: 5.2vw;
+    margin: 0 -0.8vw;
+  }
+  .stepBox {
+    width: 95vw;
+    display: flex;
+    margin-top: 5px;
+    justify-content: center;
+  }
+  .step {
+    padding-top: 5vw;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .stepTitle,
+  .stepDetail,
+  .stepTitleSelect,
+  .stepDetailSelect {
+    font-size: 2.5vw;
+  }
+  .lastStepBox {
+    margin-right: -8vw;
+  }
+  .stepBoxes {
+    width: 20vw;
+  }
+}

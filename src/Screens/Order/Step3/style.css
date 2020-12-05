@@ -1,0 +1,214 @@
+.stepBox3 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  font-weight: bolder;
+  font-family: Raleway;
+  flex-direction: column;
+  backdrop-filter: blur(4px);
+  background: linear-gradient(228.48deg, #f2ec3b 20.3%, #80f9c0 96.91%);
+}
+.step3TopData {
+  width: 65%;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
+.step3DataHead {
+  margin: 0;
+  font-size: 4rem;
+}
+.stepSubHead3 {
+  font-size: 1.5rem;
+  margin: 0.5rem 0 0 0;
+}
+.step3DataPara {
+  font-weight: bolder;
+}
+.step1But {
+  border: none;
+  outline: none;
+  margin: 2vw 0;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 1rem 3rem;
+  letter-spacing: 1px;
+  background: linear-gradient(180deg, #dadada 0%, #cbcbcb 100%);
+}
+.step1But:hover {
+  box-shadow: 0 0 15px -5px gray;
+}
+.stepActiveBut {
+  border: none;
+  outline: none;
+  margin: 2vw 0;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 1rem 3rem;
+  letter-spacing: 1px;
+  background: linear-gradient(180deg, #9419df 0%, #4b19da 100%);
+}
+.step3CirclesRow {
+  width: 65%;
+  padding: 5vw;
+  display: flex;
+  justify-content: space-around;
+}
+.step3PurpleCircles {
+  width: 22vw;
+  height: 22vw;
+  display: flex;
+  position: relative;
+  align-items: center;
+  border-radius: 15rem;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: inset 10px 10px 20px 0 rgba(0, 0, 0, 0.5),
+    inset -10px -10px 40px 0 rgba(255, 255, 255, 0.15);
+  background-image: linear-gradient(to top, #9419df, #4b19da);
+}
+.step3Circles {
+  width: 22vw;
+  height: 22vw;
+  display: flex;
+  transition: 0.3s;
+  cursor: pointer;
+  align-items: center;
+  border-radius: 15rem;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: inset -10px -10px 40px rgba(255, 255, 255, 0.45),
+    inset 10px 10px 20px rgba(0, 0, 0, 0.4);
+  background: linear-gradient(228.48deg, #f2ec3b 20.3%, #80f9c0 96.91%);
+}
+.step3CirclesH {
+  width: 22vw;
+  height: 22vw;
+  display: flex;
+  transition: 0.3s;
+  cursor: pointer;
+  align-items: center;
+  border-radius: 15rem;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: inset -10px -10px 40px rgba(255, 255, 255, 0.45),
+    inset 10px 10px 20px rgba(0, 0, 0, 0.4);
+  background: linear-gradient(228.48deg, #f2ec3b 20.3%, #80f9c0 96.91%);
+}
+.step3Circles:hover {
+  transform: scale(1.03);
+}
+.fullBody {
+  width: 15vw;
+  object-fit: contain;
+}
+.selfie {
+  width: 10vw;
+  object-fit: contain;
+}
+.selfieTitle {
+  margin: 0;
+  font-size: 1.8vw;
+  font-weight: bolder;
+}
+.selfieTitleActive {
+  margin: 0;
+  opacity: 0.9;
+  color: white;
+  font-size: 1.8vw;
+  font-weight: bolder;
+}
+.selfieDisc {
+  font-size: 1.2vw;
+  font-weight: bolder;
+}
+.selfieDiscActive {
+  color: white;
+  font-size: 1.2vw;
+  font-weight: bolder;
+}
+.tick3 {
+  width: 6vw;
+  right: -10%;
+  bottom: 20%;
+  position: absolute;
+  object-fit: contain;
+  border-radius: 1000px;
+  background: linear-gradient(180deg, #9419df 0%, #4b19da 100%);
+}
+
+@media screen and (max-width: 900px) {
+  .step3DataHead {
+    font-size: 5vw;
+  }
+  .step3TopData {
+    width: 90%;
+  }
+  .stepSubHead3 {
+    font-size: 2vw;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .step3DataHead {
+    font-size: 7vw;
+  }
+  .step3TopData {
+    width: 90%;
+  }
+  .stepSubHead3 {
+    font-size: 5vw;
+  }
+  .step3DataPara {
+    font-weight: bolder;
+    font-size: 4vw;
+  }
+  .step3Circles {
+    z-index: 3;
+    width: 40vw;
+    height: 40vw;
+  }
+  .step3CirclesH {
+    z-index: 3;
+    width: 40vw;
+    height: 40vw;
+  }
+  .step3CirclesRow {
+    width: 100%;
+  }
+  .selfie {
+    width: 20vw;
+  }
+  .fullBody {
+    width: 30vw;
+  }
+  .selfieTitle,
+  .selfieTitleActive {
+    font-size: 4vw;
+  }
+  .selfieDisc,
+  .selfieDiscActive {
+    font-size: 3vw;
+  }
+  .step3PurpleCircles {
+    width: 40vw;
+    height: 40vw;
+  }
+  .tick3 {
+    width: 12vw;
+    bottom: 10%;
+  }.stepsBigCircle {
+    left: 0;
+    top: 13%;
+    position: absolute;
+    width: 20vw !important;
+  }
+  .rigthStepCircle {
+    right: 0;
+    top: 45%;
+    width: 15vw;
+    position: absolute;
+  }
+}

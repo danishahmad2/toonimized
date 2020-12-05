@@ -1,0 +1,214 @@
+.stepBox1 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  backdrop-filter: blur(4px);
+  font-weight: bolder !important;
+  font-family: Raleway !important;
+  background: linear-gradient(228.48deg, #f2ec3b 20.3%, #80f9c0 96.91%);
+}
+.stepTopData {
+  width: 65%;
+  display: flex;
+  text-align: right;
+  flex-direction: column;
+}
+.stepDataHead {
+  margin: 0;
+  font-size: 5vw !important;
+  font-weight: bolder !important;
+  font-family: Raleway !important;
+}
+.stepSubHead {
+  font-size: 2vw !important;
+  margin: 0.5rem 0 !important;
+}
+.stepDataPara {
+  margin-top: 0.5rem;
+  font-weight: bolder;
+  font-size: 1.5vw !important;
+}
+.stepsBigCircle {
+  left: 0;
+  top: 15vw;
+  width: 15rem;
+  position: absolute;
+  z-index: -1 !important;
+}
+.rigthStepCircle {
+  right: 0;
+  top: 45vw;
+  width: 8rem;
+  position: absolute;
+  z-index: -1 !important;
+}
+.stepCartoonRow1 {
+  width: 70%;
+  z-index: 3;
+  display: flex;
+  margin: 3vw 0;
+  justify-content: space-between;
+}
+.stepBottomData1 {
+  margin-top: 2vw;
+  text-align: center;
+  font-weight: bolder;
+}
+.step1But {
+  border: none;
+  outline: none;
+  margin: 2vw 0;
+  color: white;
+  border-radius: 5px;
+  padding: 1rem 3rem;
+  letter-spacing: 1px;
+  font-weight: bold !important;
+  font-family: sans-serif !important;
+  background: linear-gradient(180deg, #dadada 0%, #cbcbcb 100%);
+}
+.step1But:hover {
+  box-shadow: 0 0 15px -5px gray;
+}
+.step1ActiveBut {
+  border: none;
+  outline: none;
+  margin: 2vw 0;
+  color: white;
+  padding: 1vw 4vw;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  font-weight: bold !important;
+  font-family: sans-serif !important;
+  background: linear-gradient(180deg, #9419df 0%, #4b19da 100%);
+}
+.step1ActiveBut:hover {
+  background: linear-gradient(360deg, #9419df 0%, #4b19da 100%);
+}
+.step1ActiveBut:active {
+  background: linear-gradient(180deg, #9419df 0%, #4b19da 100%);
+}
+.standingBox {
+  cursor: pointer;
+  position: relative;
+}
+.standHover {
+  z-index: 3;
+  left: -2vw;
+  bottom: -1vw;
+  height: 17vw;
+  position: absolute;
+  object-fit: contain;
+}
+
+@media screen and (max-width: 900px) {
+  .stepTopData {
+    width: 75% !important;
+  }
+  .stepDataHead {
+    font-size: 2.5rem !important;
+  }
+  .stepCartoonRow1 {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .stepTopData {
+    width: 90% !important;
+  }
+  .stepDataHead {
+    font-size: 2.5rem !important;
+  }
+  .stepCartoonRow1 {
+    width: 90%;
+  }
+  .standHover {
+    height: 20vw;
+    left: -2.5vw;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .stepTopData {
+    z-index: 3;
+    width: 98% !important;
+  }
+  .stepDataHead {
+    font-size: 2rem !important;
+  }
+  .stepCartoonRow1 {
+    width: 98%;
+  }
+  .stepBottomData1 {
+    z-index: 3;
+    padding: 3vw 0;
+  }
+  .stepBottomData1 h1 {
+    font-size: 4vw;
+  }
+  .stepBottomData1 p {
+    font-size: 3vw;
+  }
+  .step1But {
+    font-size: 2vw !important;
+    padding: 0.7rem 2rem !important;
+  }
+  .step1ActiveBut {
+    font-size: 2vw !important;
+    padding: 0.7rem 2rem !important;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .stepCartoonRow1 {
+    width: 70%;
+    z-index: 3;
+    display: flex;
+    margin: 3vw 0;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .standHover {
+    left: -4.5vw;
+    height: 40vw;
+  }
+  .stepTopData {
+    width: 75%;
+  }
+  .stepDataPara {
+    font-weight: bolder;
+    font-size: 3vw !important;
+  }
+  .stepSubHead {
+    font-size: 4vw !important;
+  }
+  .step1But {
+    margin: 2vw 0 !important;
+    font-size: 3vw !important;
+    padding: 0.8rem 3rem !important;
+    font-weight: lighter !important;
+    font-family: sans-serif !important;
+    background: linear-gradient(180deg, #dadada 0%, #cbcbcb 100%);
+  }
+  .step1ActiveBut {
+    margin: 2vw 0 !important;
+    font-size: 3vw !important;
+    padding: 0.8rem 3rem !important;
+    font-weight: lighter !important;
+    font-family: sans-serif !important;
+    background: linear-gradient(180deg, #9419df 0%, #4b19da 100%);
+  }
+  .stepsBigCircle {
+    left: 0;
+    position: absolute;
+    top: 15% !important;
+    width: 20vw !important;
+  }
+  .rigthStepCircle {
+    right: 0;
+    top: 45%;
+    width: 15vw;
+    position: absolute;
+  }
+}

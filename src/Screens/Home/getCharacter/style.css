@@ -1,0 +1,178 @@
+.characterBox {
+  width: 100%;
+  display: flex;
+  padding: 7vw 0;
+  position: relative;
+  align-items: center;
+  font-family: Raleway;
+  flex-direction: column;
+  background-color: white;
+}
+.centerCharacterData {
+  width: 55%;
+  z-index: 2;
+  position: relative;
+  text-align: center;
+}
+.characterHead {
+  z-index: 2;
+  font-size: 3vw;
+  position: relative;
+}
+.characterPara {
+  font-size: 1.2rem;
+  line-height: 2rem;
+  font-weight: bold;
+}
+.emailInput {
+  width: 100%;
+  border: none;
+  font-size: 1rem;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  background-color: #eaeff8;
+}
+.emailInput::placeholder {
+  color: gray;
+}
+.characterRow {
+  display: flex;
+  align-items: center;
+}
+
+input[type="checkbox"] {
+  visibility: hidden;
+}
+label {
+  cursor: pointer;
+  margin-top: 1rem;
+  margin-left: -1rem;
+}
+input[type="checkbox"] + label:before {
+  padding: 0;
+  width: 15px;
+  height: 15px;
+  content: "\00a0";
+  border-radius: 2px;
+  vertical-align: top;
+  margin: 0 1em 0 0;
+  display: inline-block;
+  font: 16px/1em sans-serif;
+  border: 1px solid #c18cee;
+}
+input[type="checkbox"]:checked + label:before {
+  color: white;
+  content: "\2713";
+  text-align: center;
+  background: #c18cee;
+}
+.nextStepBut {
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 1vw;
+  margin-top: 3vw;
+  font-weight: 600;
+  padding: 1vw 5vw;
+  letter-spacing: 1px;
+  font-family: Raleway;
+  border-radius: 0.6rem;
+  background: linear-gradient(180deg, #9419df 0%, #4b19da 100%);
+}
+.nextStepBut:hover {
+  background: linear-gradient(360deg, #9419df 0%, #4b19da 100%);
+}
+.nextStepBut:active {
+  background: linear-gradient(180deg, #9419df 0%, #4b19da 100%);
+}
+.helpTxt {
+  cursor: pointer;
+  color: #8f8f8f;
+}
+.characterNeclace {
+  bottom: 0;
+  z-index: 0;
+  width: 50%;
+  position: absolute;
+  transform: rotate(180deg);
+}
+
+@media screen and (max-width: 860px) {
+  .characterHead {
+    font-size: 4vw;
+  }
+  .characterPara {
+    font-size: 2vw;
+  }
+  .emailInput {
+    font-size: 2vw;
+    padding: 1.2vw 1vw;
+  }
+  .characterNeclace {
+    width: 65%;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .nextStepBut {
+    font-size: 2vw;
+    margin-top: 8vw;
+    padding: 2vw 7vw;
+    letter-spacing: 1px;
+  }
+  label {
+    cursor: pointer;
+    margin-top: 1rem;
+    margin-left: -1rem;
+    font-size: 2vw;
+  }
+  input[type="checkbox"] + label:before {
+    width: 10px;
+    height: 10px;
+    font: 10px/1em sans-serif;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .characterHead {
+    width: 70%;
+    font-size: 5vw;
+    text-align: center;
+  }
+  .characterPara {
+    font-size: 2.5vw;
+    line-height: 1rem;
+  }
+  .characterNeclace {
+    width: 80%;
+  }
+  .centerCharacterData {
+    width: 80%;
+  }
+  .emailInput {
+    font-size: 3vw;
+    padding: 2vw 3vw;
+  }
+  .helpTxt {
+    cursor: pointer;
+    color: #8f8f8f;
+    margin-top: 5px;
+    font-size: 2.8vw;
+  }
+  .nextStepBut {
+    border: none;
+    outline: none;
+    color: white;
+    font-weight: 600;
+    font-family: Raleway;
+    border-radius: 5px;
+    background: linear-gradient(180deg, #9419df 0%, #4b19da 100%);
+    font-size: 3vw;
+    margin-top: 6vw;
+    padding: 2vw 7vw;
+    letter-spacing: 1px;
+  }
+  .characterBox {
+    padding: 10vw 0;
+  }
+}

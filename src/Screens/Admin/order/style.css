@@ -1,0 +1,9 @@
+.page{
+    padding: 50px;
+}
+.order-item{
+    background: #efefef;
+    color: #333;
+    padding: 40px;
+    margin: 20px;
+}

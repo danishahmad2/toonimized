@@ -1,0 +1,303 @@
+.stepBox1 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  backdrop-filter: blur(4px);
+  background: linear-gradient(228.48deg, #f2ec3b 20.3%, #80f9c0 96.91%);
+}
+.stepTopData {
+  width: 65%;
+  display: flex;
+  text-align: right;
+  flex-direction: column;
+}
+.stepDataHead {
+  margin: 0;
+  font-size: 4rem;
+  font-family: sans-serif;
+}
+.stepSubHead {
+  font-size: 1.2rem;
+  margin: 0.5rem 0 0 0;
+}
+.step6But {
+  border: none;
+  outline: none;
+  margin: 1vw 0;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 1rem 3rem;
+  letter-spacing: 1px;
+  background: linear-gradient(180deg, #dadada 0%, #cbcbcb 100%);
+}
+.step1But:hover {
+  box-shadow: 0 0 15px -5px gray;
+}
+.stepActiveBut6 {
+  border: none;
+  outline: none;
+  margin: 1vw 0;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 1rem 3rem;
+  letter-spacing: 1px;
+  background: linear-gradient(180deg, #9419df 0%, #4b19da 100%);
+}
+.stepActiveBut6:hover {
+  background: linear-gradient(360deg, #9419df 0%, #4b19da 100%);
+}
+.stepActiveBut6:active {
+  background: linear-gradient(180deg, #9419df 0%, #4b19da 100%);
+}
+.cartoonVersion {
+  width: 65%;
+  display: flex;
+  padding: 7vw 0 1vw 0;
+  justify-content: space-between;
+}
+.pngVersion {
+  width: 25vw;
+  height: 20vw;
+  display: flex;
+  position: relative;
+  align-items: center;
+  border-radius: 15px;
+  background: #d1f062;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: -10px -10px 20px rgba(255, 255, 255, 0.25),
+    6px 6px 20px rgba(0, 0, 0, 0.25);
+}
+.pngActive {
+  width: 24vw;
+  margin: 1vw;
+  height: 19vw;
+  display: flex;
+  position: relative;
+  align-items: center;
+  border-radius: 15px;
+  background: #d1f062;
+  flex-direction: column;
+  justify-content: center;
+}
+.pngBg {
+  border-radius: 15px;
+  background: linear-gradient(to right, #80f9c0, #f2ec3b);
+}
+.jacketVersion {
+  width: 25vw;
+  height: 20vw;
+  display: flex;
+  position: relative;
+  align-items: center;
+  border-radius: 15px;
+  background: #e8ed47;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: inset -10px -10px 30px rgba(255, 255, 255, 0.3),
+    inset 6px 6px 20px rgba(0, 0, 0, 0.2);
+}
+.jacketBottom {
+  bottom: 0;
+  width: 25vw;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 0px 0px 15px 15px;
+  background: linear-gradient(135.12deg, #f7de03 6.92%, #ffa620 69.51%);
+  box-shadow: inset -10px -10px 30px rgba(255, 255, 255, 0.3),
+    inset 6px 6px 20px rgba(0, 0, 0, 0.2);
+}
+.PNG {
+  width: 12vw;
+  object-fit: contain;
+}
+.jacket {
+  width: 8vw;
+  object-fit: contain;
+}
+.PNGTitle {
+  font-size: 1.2rem;
+  font-weight: bolder;
+}
+.jacketTitle {
+  color: #a5a6a7;
+  font-size: 1.3rem;
+  font-weight: bolder;
+}
+.jacketDisc {
+  margin: 1vw;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bolder;
+}
+.PNGtick {
+  top: -10%;
+  width: 7vw;
+  right: -10%;
+  position: absolute;
+  border-radius: 100px;
+  background: linear-gradient(180deg, #9419df 0%, #4b19da 100%);
+}
+.discTxt {
+  opacity: 0.6;
+  font-size: 0.9rem;
+  margin-bottom: 5vw;
+  font-weight: bolder;
+}
+.jacketDetail {
+  width: 25vw;
+}
+.version {
+  width: 65%;
+  display: flex;
+  text-align: center;
+  justify-content: flex-end;
+}
+.jacketDetail {
+  color: #a5a6a7;
+  margin-bottom: 3vw;
+  font-weight: bolder;
+}
+
+@media screen and (max-width: 900px) {
+  .cartoonVersion {
+    width: 75%;
+  }
+  .pngVersion {
+    width: 35vw;
+    height: 25vw;
+  }
+  .pngActive {
+    width: 30vw;
+    height: 23vw;
+  }
+  .jacketVersion {
+    width: 35vw;
+    height: 25vw;
+  }
+  .jacketBottom {
+    width: 35vw;
+  }
+  .jacketTitle {
+    font-size: 2vw;
+  }
+  .jacketDisc {
+    margin: 1.5vw;
+    font-size: 2vw;
+  }
+  .jacketDetail {
+    width: 35vw;
+  }
+  .version {
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .cartoonVersion {
+    width: 95%;
+  }
+  .version {
+    width: 95%;
+  }
+  .jacketVersion {
+    width: 40vw;
+    height: 30vw;
+  }
+  .jacketBottom {
+    width: 40vw;
+  }
+  .pngVersion {
+    width: 40vw;
+    height: 30vw;
+  }
+  .pngActive {
+    width: 40vw;
+    height: 28vw;
+  }
+  .jacketDisc {
+    margin: 2vw;
+    font-size: 2.2vw;
+  }
+  .jacketTitle {
+    font-size: 2.3vw;
+  }
+  .jacket {
+    width: 10vw;
+  }
+  .jacketDetail {
+    width: 40vw;
+    font-size: 2vw;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .step6But,
+  .stepActiveBut6 {
+    font-size: 3vw;
+    padding: 0.7rem 2rem;
+  }
+  .PNG {
+    width: 15vw;
+  }
+  .pngActive {
+    width: 45vw;
+    height: 30vw;
+  }
+  .jacketVersion {
+    width: 45vw;
+    height: 30vw;
+  }
+  .jacketDisc {
+    margin: 2vw;
+    font-size: 3vw;
+  }
+  .jacketTitle {
+    font-size: 2.5vw;
+  }
+  .jacket {
+    width: 12vw;
+  }
+  .jacketBottom {
+    width: 45vw;
+  }
+  .PNGTitle {
+    font-size: 3vw;
+  }
+  .PNGtick {
+    top: -10%;
+    width: 10vw;
+    right: -10%;
+  }
+  .stepSubHead {
+    font-size: 4vw;
+  }
+  .jacketDetail {
+    width: 40vw;
+    font-size: 2.5vw;
+  }
+  .jacketDetail {
+    width: 45vw;
+    font-size: 2.3vw;
+  }
+  .discTxt {
+    font-size: 2.3vw;
+  }.stepsBigCircle {
+    left: 0;
+    top: 13%;
+    position: absolute;
+    width: 20vw !important;
+  }
+  .rigthStepCircle {
+    right: 0;
+    top: 45%;
+    width: 15vw;
+    position: absolute;
+  }
+}

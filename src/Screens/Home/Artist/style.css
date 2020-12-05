@@ -1,0 +1,109 @@
+.artistBox {
+  width: 100%;
+  z-index: 2;
+  display: flex;
+  position: relative;
+  align-items: center;
+  font-family: Raleway;
+  justify-content: center;
+  box-shadow: 0px 4px 10px rgba(47, 47, 47, 0.25);
+  background: linear-gradient(228.48deg, #f2ec3b 20.3%, #80f9c0 96.91%);
+}
+.artistDataBox {
+  width: 50%;
+  padding: 4vw;
+}
+.artistHead {
+  margin: 0;
+  z-index: 3;
+  color: black;
+  font-size: 7vw;
+  line-height: 100%;
+  position: relative;
+}
+.artistHead3 {
+  color: black;
+  margin-top: 2vw;
+  font-size: 2.3vw;
+  font-weight: bold;
+}
+.artistSmallPara {
+  margin-top: 1vw;
+  font-size: 1.1vw;
+}
+.seeArtistBut {
+  border: none;
+  color: white;
+  font-size: 0.9vw;
+  margin-top: 2rem;
+  padding: 1.2vw 4vw;
+  letter-spacing: 1px;
+  border-radius: 10px;
+  background: linear-gradient(180deg, #9419df 0%, #4b19da 100%);
+}
+.seeArtistBut:hover {
+  background: linear-gradient(360deg, #9419df 0%, #4b19da 100%);
+}
+.seeArtistBut:active {
+  background: linear-gradient(180deg, #9419df 0%, #4b19da 100%);
+}
+.artistStandCircle {
+  top: 3vw;
+  left: -5vw;
+  width: 28vw;
+  height: 28vw;
+  position: relative;
+  border-radius: 20rem;
+  background: linear-gradient(228.48deg, #f2ec3b 20.3%, #80f9c0 96.91%);
+  box-shadow: inset -10px -10px 40px rgba(255, 255, 255, 0.45),
+    inset 8px 8px 25px rgba(0, 0, 0, 0.35);
+}
+.donutBoy {
+  width: 50vw;
+}
+
+@media screen and (max-width: 480px) {
+  .artistHead3 {
+    color: black;
+    font-size: 3vw;
+    margin-top: 2vw;
+    font-weight: bold;
+  }
+  .artistSmallPara {
+    margin-top: 1vw;
+    font-size: 2.2vw;
+  }
+  .seeArtistBut {
+    margin-top: 0;
+    font-size: 2.3vw;
+    border-radius: 2px;
+  }
+  .artistHead {
+    margin: 0;
+    z-index: 3;
+    color: black;
+    font-size: 6vw;
+    line-height: 100%;
+    position: relative;
+  }
+  .artistDataBox {
+    width: 55%;
+    padding: 10vw 3vw;
+  }
+  .donutBoy {
+    right: 0;
+    width: 53vw;
+    position: absolute;
+  }
+  .artistBox {
+    width: 100%;
+    z-index: 2;
+    display: flex;
+    position: relative;
+    align-items: center;
+    font-family: Raleway;
+    justify-content: space-between;
+    box-shadow: 0px 4px 10px rgba(47, 47, 47, 0.25);
+    background: linear-gradient(228.48deg, #f2ec3b 20.3%, #80f9c0 96.91%);
+  }
+}
